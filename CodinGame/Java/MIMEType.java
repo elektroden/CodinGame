@@ -50,7 +50,6 @@ class Solution {
                 System.out.println("UNKNOWN"); 
             }
             else {
-            
                 if(mimeMap.containsKey(extensionName)) {
                     System.out.println(mimeMap.get(extensionName));
                 }
@@ -58,9 +57,6 @@ class Solution {
                     System.out.println("UNKNOWN");
                 }
             }
-            
-            
-            
         }
     }
 }
