@@ -15,7 +15,7 @@ class Solution {
         for (int i = 0; i < n; i++)
         {
             intList[i] = in.nextInt();
-            System.err.println(intList[i]);
+            //System.err.println(intList[i]);
         }
        
         int maxLoss = 0;
